@@ -5834,15 +5834,18 @@ h3 {
     background-color: #06AAF2; }
   .contactform .submit:hover {
     color: #3498db; }
-  @media only screen and (max-width: 580px) {
-    .contactform #form-div {
-      left: 3%;
-      margin-right: 3%;
-      width: 88%;
-      margin-left: 0;
-      padding-left: 3%;
-      padding-right: 3%; } }
 
+@media only screen and (max-width: 580px) {
+  .contactform {
+    left: 3%;
+    margin-right: 3%;
+    width: auto;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%; }
+    .contactform #button-blue {
+      padding-top: 11px;
+      padding-bottom: 11px; } }
 .navbar-default {
   background: #fff;
   border-color: #fff;
